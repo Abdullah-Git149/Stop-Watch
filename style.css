@@ -1,0 +1,54 @@
+
+   
+
+.mainn{
+   box-shadow: 2px 2px 10px black;
+    background-color:black;
+    border: 1px solid slategrey;
+    border-radius: 25px;
+
+
+    transition: 0.5s ease;
+    margin: 0 auto;
+    width: 30%;
+    
+    text-align: center;
+}
+
+.mainn:hover{
+    background-color: white;
+}
+.mainn h1{
+    color: black;
+    font-size: 50px;
+    background-color: white;
+}
+
+
+.num h1{
+    width: 100px;
+    color: gray;
+    /* background-color: black; */
+    
+    display: inline-block;
+    font-size: 60px;
+    
+}
+.butt button{
+    border: none;
+    width: 80px;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    margin: 20px;
+    margin-top:50%;
+    margin-bottom: 20px;
+    transition: 0.5s ease;
+    outline: none;
+}
+.butt button:hover{
+    background-color: white;
+    color: gray;
+    border: 1px solid gray;
+}
